@@ -1,0 +1,20 @@
+{
+  "name": "org.wso2.apimgt.token.revocation.stream",
+  "version": "1.0.0",
+  "nickName": "",
+  "description": "",
+  "payloadData": [
+    {
+      "name": "revokedToken",
+      "type": "STRING"
+    },
+    {
+      "name": "ttl",
+      "type": "STRING"
+    },
+    {
+      "name": "expiryTime",
+      "type": "LONG"
+    }
+  ]
+}
